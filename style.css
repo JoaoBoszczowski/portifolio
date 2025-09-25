@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+header {
+  background-color: #0e4c5c;
+  color: white;
+  padding: 20px 0;
+  font-family: cursive;
+  font-size: 20px;
+}
+header h1 {
+    font-size: 40px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.intro h1 {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(48, 76, 114);
+    font-size: 60px;
+    margin-bottom: 120px;
+}
+.intro p {
+    margin-top: 50px;
+    text-align: center ;
+    color: #12102b;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #00aced;
+}
+
+main {
+  padding: 40px 0;
+}
+main h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #0a0644;
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+.card {
+  background-color: lightblue;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.card p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card1:hover {
+  transform: translateY(-5px);
+}
+footer {
+  background-color: #0a0644;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card1 {
+  background-color: blue ;
+  color: #64d6ff;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card1 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.card1 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.card2 {
+  background-color: orangered;
+  color: black;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.img {
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+}
