@@ -81,7 +81,11 @@ main h2 {
   gap: 20px;
   flex-wrap: wrap; 
 }
-
+.card-container h3 {
+  color: #0a0644;
+  text-align: left;
+  font-size: 30px;
+}
 .card {
   background-color: lightblue;
   padding: 20px;
@@ -130,6 +134,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
+  
 }
 .card1 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
